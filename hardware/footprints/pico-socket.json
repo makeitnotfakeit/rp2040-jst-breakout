@@ -1,0 +1,70 @@
+{
+  "format": "pcbcraft-footprint/1",
+  "library": "local",
+  "id": "pico-socket",
+  "revision": 1,
+  "name": "Raspberry Pi Pico 40-Pin DIP Socket",
+  "license": "MIT OR Apache-2.0",
+  "source": {
+    "kind": "original",
+    "reference": "Clean-room parametric derivation from official Raspberry Pi Pico Datasheet",
+    "locator": "2.54 mm pitch; 17.78 mm (0.7\") row span; 1.70 mm lands; 1.00 mm plated drills; square pad 1"
+  },
+  "pads": [
+    {"number": "1", "center": {"x_nm": -8890000, "y_nm": -24130000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "rectangle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "2", "center": {"x_nm": -8890000, "y_nm": -21590000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "3", "center": {"x_nm": -8890000, "y_nm": -19050000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "4", "center": {"x_nm": -8890000, "y_nm": -16510000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "5", "center": {"x_nm": -8890000, "y_nm": -13970000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "6", "center": {"x_nm": -8890000, "y_nm": -11430000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "7", "center": {"x_nm": -8890000, "y_nm": -8890000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "8", "center": {"x_nm": -8890000, "y_nm": -6350000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "9", "center": {"x_nm": -8890000, "y_nm": -3810000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "10", "center": {"x_nm": -8890000, "y_nm": -1270000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "11", "center": {"x_nm": -8890000, "y_nm": 1270000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "12", "center": {"x_nm": -8890000, "y_nm": 3810000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "13", "center": {"x_nm": -8890000, "y_nm": 6350000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "14", "center": {"x_nm": -8890000, "y_nm": 8890000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "15", "center": {"x_nm": -8890000, "y_nm": 11430000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "16", "center": {"x_nm": -8890000, "y_nm": 13970000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "17", "center": {"x_nm": -8890000, "y_nm": 16510000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "18", "center": {"x_nm": -8890000, "y_nm": 19050000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "19", "center": {"x_nm": -8890000, "y_nm": 21590000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "20", "center": {"x_nm": -8890000, "y_nm": 24130000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+
+    {"number": "21", "center": {"x_nm": 8890000, "y_nm": 24130000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "22", "center": {"x_nm": 8890000, "y_nm": 21590000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "23", "center": {"x_nm": 8890000, "y_nm": 19050000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "24", "center": {"x_nm": 8890000, "y_nm": 16510000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "25", "center": {"x_nm": 8890000, "y_nm": 13970000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "26", "center": {"x_nm": 8890000, "y_nm": 11430000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "27", "center": {"x_nm": 8890000, "y_nm": 8890000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "28", "center": {"x_nm": 8890000, "y_nm": 6350000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "29", "center": {"x_nm": 8890000, "y_nm": 3810000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "30", "center": {"x_nm": 8890000, "y_nm": 1270000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "31", "center": {"x_nm": 8890000, "y_nm": -1270000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "32", "center": {"x_nm": 8890000, "y_nm": -3810000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "33", "center": {"x_nm": 8890000, "y_nm": -6350000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "34", "center": {"x_nm": 8890000, "y_nm": -8890000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "35", "center": {"x_nm": 8890000, "y_nm": -11430000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "36", "center": {"x_nm": 8890000, "y_nm": -13970000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "37", "center": {"x_nm": 8890000, "y_nm": -16510000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "38", "center": {"x_nm": 8890000, "y_nm": -19050000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "39", "center": {"x_nm": 8890000, "y_nm": -21590000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000},
+    {"number": "40", "center": {"x_nm": 8890000, "y_nm": -24130000}, "width_nm": 1700000, "height_nm": 1700000, "rotation": 0, "shape": "circle", "copper": "all_copper", "drill_nm": 1000000}
+  ],
+  "graphics": [
+    {"purpose": "courtyard", "center": {"x_nm": 0, "y_nm": 0}, "width_nm": 22000000, "height_nm": 52000000, "rotation": 0}
+  ],
+  "silkscreen": [
+    {
+      "points": [
+        {"x_nm": -10500000, "y_nm": -25500000},
+        {"x_nm": 10500000, "y_nm": -25500000},
+        {"x_nm": 10500000, "y_nm": 25500000},
+        {"x_nm": -10500000, "y_nm": 25500000}
+      ],
+      "closed": true
+    }
+  ]
+}

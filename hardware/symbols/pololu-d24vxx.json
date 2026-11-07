@@ -1,0 +1,36 @@
+{
+  "format": "pcbcraft-symbol/1",
+  "id": "pololu-d24vxx",
+  "revision": 1,
+  "name": "Pololu Step-Down Voltage Regulator",
+  "reference_prefix": "U",
+  "default_value": "Pololu-D24Vxx",
+  "terminals": [
+    {"id": "1", "name": "VIN", "electrical_type": "power_in"},
+    {"id": "2", "name": "GND", "electrical_type": "power_in"},
+    {"id": "3", "name": "VOUT", "electrical_type": "power_out"},
+    {"id": "4", "name": "SHDN", "electrical_type": "input"}
+  ],
+  "units": [
+    {
+      "id": "main",
+      "drawing": [
+        {"type": "rect", "min_nm": [-3810000, -5080000], "max_nm": [3810000, 5080000]},
+        {"type": "line", "from_nm": [-6350000, -3810000], "to_nm": [-3810000, -3810000]},
+        {"type": "line", "from_nm": [-6350000, -1270000], "to_nm": [-3810000, -1270000]},
+        {"type": "line", "from_nm": [6350000, -3810000], "to_nm": [3810000, -3810000]},
+        {"type": "line", "from_nm": [6350000, 1270000], "to_nm": [3810000, 1270000]},
+        {"type": "text", "at_nm": [-2540000, -3810000], "text": "VIN", "align": "start"},
+        {"type": "text", "at_nm": [-2540000, -1270000], "text": "SHDN", "align": "start"},
+        {"type": "text", "at_nm": [2540000, -3810000], "text": "VOUT", "align": "end"},
+        {"type": "text", "at_nm": [2540000, 1270000], "text": "GND", "align": "end"}
+      ],
+      "pins": [
+        {"terminal": "1", "at_nm": [-6350000, -3810000]},
+        {"terminal": "4", "at_nm": [-6350000, -1270000]},
+        {"terminal": "3", "at_nm": [6350000, -3810000]},
+        {"terminal": "2", "at_nm": [6350000, 1270000]}
+      ]
+    }
+  ]
+}

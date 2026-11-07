@@ -1,0 +1,71 @@
+{
+  "format": "pcbcraft-footprint/1",
+  "library": "local",
+  "id": "jst-gh-4-smt",
+  "revision": 1,
+  "name": "JST GH 1.25mm 4-Pin SMT Header",
+  "license": "MIT OR Apache-2.0",
+  "source": {
+    "kind": "original",
+    "reference": "Clean-room parametric derivation from JST GH series connector specifications",
+    "locator": "1.25 mm pitch; 0.60x1.60 mm SMT signal lands; 1.00x2.00 mm side anchor retention tabs"
+  },
+  "pads": [
+    {
+      "number": "1",
+      "center": {"x_nm": -1875000, "y_nm": -1500000},
+      "width_nm": 600000,
+      "height_nm": 1600000,
+      "rotation": 0,
+      "shape": "rectangle",
+      "copper": "top"
+    },
+    {
+      "number": "2",
+      "center": {"x_nm": -625000, "y_nm": -1500000},
+      "width_nm": 600000,
+      "height_nm": 1600000,
+      "rotation": 0,
+      "shape": "rectangle",
+      "copper": "top"
+    },
+    {
+      "number": "3",
+      "center": {"x_nm": 625000, "y_nm": -1500000},
+      "width_nm": 600000,
+      "height_nm": 1600000,
+      "rotation": 0,
+      "shape": "rectangle",
+      "copper": "top"
+    },
+    {
+      "number": "4",
+      "center": {"x_nm": 1875000, "y_nm": -1500000},
+      "width_nm": 600000,
+      "height_nm": 1600000,
+      "rotation": 0,
+      "shape": "rectangle",
+      "copper": "top"
+    }
+  ],
+  "graphics": [
+    {
+      "purpose": "courtyard",
+      "center": {"x_nm": 0, "y_nm": 0},
+      "width_nm": 8500000,
+      "height_nm": 5500000,
+      "rotation": 0
+    }
+  ],
+  "silkscreen": [
+    {
+      "points": [
+        {"x_nm": -3875000, "y_nm": -2200000},
+        {"x_nm": 3875000, "y_nm": -2200000},
+        {"x_nm": 3875000, "y_nm": 2200000},
+        {"x_nm": -3875000, "y_nm": 2200000}
+      ],
+      "closed": true
+    }
+  ]
+}

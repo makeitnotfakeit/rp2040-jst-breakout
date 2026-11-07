@@ -1,0 +1,56 @@
+{
+  "format": "pcbcraft-netlist/1",
+  "project": "rp2040-jst-breakout",
+  "revision": 1,
+  "rules": {
+    "pin_1_rule": "5V",
+    "pin_last_rule": "GND",
+    "parallel_bus": true
+  },
+  "power_rails": {
+    "VIN_RAW": {
+      "description": "High voltage battery power (XT30_HV, XT60_HV)",
+      "max_voltage": "36V",
+      "destinations": ["U_POLOLU:1"]
+    },
+    "5V_BUS": {
+      "description": "Regulated 5V rail feeding Pico VSYS and Pin 1 of all JST GH ports",
+      "sources": ["U_POLOLU:3", "J_XT30_5V:1", "J_XT60_5V:1"],
+      "destinations": ["U_PICO:39", "J_ALL_JST:1"]
+    },
+    "GND": {
+      "description": "Common ground plane",
+      "destinations": ["U_PICO:GND", "U_POLOLU:2", "J_ALL_XT:2", "J_ALL_JST:LAST_PIN"]
+    }
+  },
+  "parallel_io_matrix": {
+    "GP0_UART0_TX": ["U_PICO:1", "J_UART1:2", "J_UART2:2", "J_D_PAIR0:2", "J_D_QUAD1:2", "J_D_OCT1:2", "J_D_WIDE1:2"],
+    "GP1_UART0_RX": ["U_PICO:2", "J_UART1:3", "J_UART2:3", "J_D_PAIR0:3", "J_D_QUAD1:3", "J_D_OCT1:3", "J_D_WIDE1:3"],
+    "GP2": ["U_PICO:4", "J_D_PAIR1:2", "J_D_QUAD1:4", "J_D_OCT1:4", "J_D_WIDE1:4"],
+    "GP3": ["U_PICO:5", "J_D_PAIR1:3", "J_D_QUAD1:5", "J_D_OCT1:5", "J_D_WIDE1:5"],
+    "GP4_UART1_TX": ["U_PICO:6", "J_D_PAIR2:2", "J_D_QUAD2:2", "J_D_OCT1:6", "J_D_WIDE1:6"],
+    "GP5_UART1_RX": ["U_PICO:7", "J_D_PAIR2:3", "J_D_QUAD2:3", "J_D_OCT1:7", "J_D_WIDE1:7"],
+    "GP6": ["U_PICO:9", "J_D_PAIR3:2", "J_D_QUAD2:4", "J_D_OCT1:8", "J_D_WIDE1:8"],
+    "GP7": ["U_PICO:10", "J_D_PAIR3:3", "J_D_QUAD2:5", "J_D_OCT1:9", "J_D_WIDE1:9"],
+    "GP8": ["U_PICO:11", "J_D_PAIR4:2", "J_D_QUAD3:2", "J_D_OCT2:2", "J_D_WIDE1:10"],
+    "GP9": ["U_PICO:12", "J_D_PAIR4:3", "J_D_QUAD3:3", "J_D_OCT2:3", "J_D_WIDE1:11"],
+    "GP10": ["U_PICO:14", "J_D_PAIR5:2", "J_D_QUAD3:4", "J_D_OCT2:4", "J_D_WIDE1:12"],
+    "GP11": ["U_PICO:15", "J_D_PAIR5:3", "J_D_QUAD3:5", "J_D_OCT2:5", "J_D_WIDE2:2"],
+    "GP12": ["U_PICO:16", "J_D_PAIR6:2", "J_D_QUAD4:2", "J_D_OCT2:6", "J_D_WIDE2:3"],
+    "GP13": ["U_PICO:17", "J_D_PAIR6:3", "J_D_QUAD4:3", "J_D_OCT2:7", "J_D_WIDE2:4"],
+    "GP14": ["U_PICO:19", "J_D_PAIR7:2", "J_D_QUAD4:4", "J_D_OCT2:8", "J_D_WIDE2:5"],
+    "GP15": ["U_PICO:20", "J_D_PAIR7:3", "J_D_QUAD4:5", "J_D_OCT2:9", "J_D_WIDE2:6"],
+    "GP16": ["U_PICO:21", "J_D_PAIR8:2", "J_D_QUAD5:2", "J_D_OCT3:2", "J_D_WIDE2:7"],
+    "GP17": ["U_PICO:22", "J_D_PAIR8:3", "J_D_QUAD5:3", "J_D_OCT3:3", "J_D_WIDE2:8"],
+    "GP18": ["U_PICO:24", "J_D_PAIR9:2", "J_D_QUAD5:4", "J_D_OCT3:4", "J_D_WIDE2:9"],
+    "GP19": ["U_PICO:25", "J_D_PAIR9:3", "J_D_QUAD5:5", "J_D_OCT3:5", "J_D_WIDE2:10"],
+    "GP20": ["U_PICO:26", "J_D_PAIR10:2", "J_D_QUAD6:2", "J_D_OCT3:6", "J_D_WIDE2:11"],
+    "GP21": ["U_PICO:27", "J_D_PAIR10:3", "J_D_QUAD6:3", "J_D_OCT3:7", "J_D_WIDE2:12"],
+    "GP22": ["U_PICO:29", "J_D_PAIR11:2", "J_D_QUAD6:4", "J_D_OCT3:8"],
+    "RUN_RESET": ["U_PICO:30", "J_D_PAIR11:3", "J_D_QUAD6:5", "J_D_OCT3:9"],
+    "ADC0_GP26": ["U_PICO:31", "J_A_PAIR0:2", "J_A_QUAD0:2"],
+    "ADC1_GP27": ["U_PICO:32", "J_A_PAIR0:3", "J_A_QUAD0:3"],
+    "ADC2_GP28": ["U_PICO:34", "J_A_PAIR1:2", "J_A_QUAD0:4"],
+    "ADC_VREF": ["U_PICO:35", "J_A_PAIR1:3", "J_A_QUAD0:5"]
+  }
+}

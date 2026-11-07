@@ -1,0 +1,28 @@
+{
+  "format": "pcbcraft-symbol/1",
+  "id": "xt-power",
+  "revision": 1,
+  "name": "XT30 / XT60 Power Input",
+  "reference_prefix": "J",
+  "default_value": "XT-POWER",
+  "terminals": [
+    {"id": "1", "name": "V+", "electrical_type": "power_in"},
+    {"id": "2", "name": "GND", "electrical_type": "power_in"}
+  ],
+  "units": [
+    {
+      "id": "main",
+      "drawing": [
+        {"type": "rect", "min_nm": [-2540000, -3810000], "max_nm": [2540000, 3810000]},
+        {"type": "line", "from_nm": [-6350000, -2540000], "to_nm": [-2540000, -2540000]},
+        {"type": "line", "from_nm": [-6350000, 2540000], "to_nm": [-2540000, 2540000]},
+        {"type": "text", "at_nm": [-1270000, -2540000], "text": "1:V+", "align": "start"},
+        {"type": "text", "at_nm": [-1270000, 2540000], "text": "2:GND", "align": "start"}
+      ],
+      "pins": [
+        {"terminal": "1", "at_nm": [-6350000, -2540000]},
+        {"terminal": "2", "at_nm": [-6350000, 2540000]}
+      ]
+    }
+  ]
+}
