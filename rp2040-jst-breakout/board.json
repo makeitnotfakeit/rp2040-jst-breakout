@@ -1,0 +1,68 @@
+{
+  "format": "pcbcraft-board/5",
+  "setup": {
+    "layers": [
+    {"id":"16c8e75e-b335-4e17-8c78-c3806c1a4e44","name":"Front paste","purpose":"paste","side":"front"}
+
+    ,
+    {"id":"206683b2-2069-4f9d-860e-f22691d6f3fc","name":"Top","purpose":"copper","side":"front"}
+
+    ,
+    {"id":"4c97b1c0-cd89-4b3c-99b3-13a7dce8bc5b","name":"Front courtyard","purpose":"courtyard","side":"front"}
+
+    ,
+    {"id":"7fa16394-14a3-4714-b6b1-2da38610ea52","name":"Bottom","purpose":"copper","side":"back"}
+
+    ,
+    {"id":"8d2f25e6-7dc3-4624-906f-922b0d8c16e2","name":"Back silkscreen","purpose":"silkscreen","side":"back"}
+
+    ,
+    {"id":"9037e4c9-b76b-47cc-a4e4-2abc9070c227","name":"Back mask","purpose":"mask","side":"back"}
+
+    ,
+    {"id":"9654a6a2-26ac-4ac4-b400-d936f8587f78","name":"Front fabrication","purpose":"fabrication","side":"front"}
+
+    ,
+    {"id":"ae9cf574-cc83-4d5c-9c70-a482f427d12a","name":"Front silkscreen","purpose":"silkscreen","side":"front"}
+
+    ,
+    {"id":"b38fc085-7de7-407a-a335-ac82a1ee1b3e","name":"Back fabrication","purpose":"fabrication","side":"back"}
+
+    ,
+    {"id":"ce2d9050-7938-4ddc-8c15-31c33192dd3c","name":"Front mask","purpose":"mask","side":"front"}
+
+    ,
+    {"id":"d1ecce38-adea-437a-92d1-58f99fbe01c5","name":"Back courtyard","purpose":"courtyard","side":"back"}
+
+    ,
+    {"id":"ed650a31-b879-4026-924d-3069a8d674f7","name":"Back paste","purpose":"paste","side":"back"}
+
+    ,
+    {"id":"f76897d0-d28d-4cae-bf20-91f96254ec05","name":"Board outline","purpose":"outline"}
+    ],
+    "stackup": {
+      "id": "9602c570-66ca-4a15-85dd-6d87275de6b3",
+      "strata": [
+    {"kind":"copper","layer":"206683b2-2069-4f9d-860e-f22691d6f3fc"}
+
+    ,
+    {"kind":"dielectric","id":"ddc174e1-7759-4dad-ac1f-c233faf5e890"}
+
+    ,
+    {"kind":"copper","layer":"7fa16394-14a3-4714-b6b1-2da38610ea52"}
+      ]
+    }
+  },
+  "footprints": [
+    {"id":71,"component":2,"definition":"header-1x02-254","definition_revision":3,"library":"starter","mapping":{"1":"1","2":"2"},"x_nm":-50800000,"y_nm":-25400000}
+
+    ,
+    {"id":72,"component":4,"definition":"header-1x02-254","definition_revision":3,"library":"starter","mapping":{"1":"1","2":"2"},"x_nm":-50800000,"y_nm":-12700000}
+
+    ,
+    {"id":73,"component":6,"definition":"header-1x02-254","definition_revision":3,"library":"starter","mapping":{"1":"1","2":"2"},"x_nm":-50800000,"y_nm":12700000}
+
+    ,
+    {"id":74,"component":8,"definition":"header-1x02-254","definition_revision":3,"library":"starter","mapping":{"1":"1","2":"2"},"x_nm":-50800000,"y_nm":25400000}
+  ]
+}

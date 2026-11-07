@@ -1,0 +1,147 @@
+{
+  "format": "pcbcraft-sheet/1",
+  "id": "34d114dd-73f9-4deb-999b-192c8e78c626",
+  "symbols": [
+    {"id":2,"component":2,"unit":"main","x_nm":-63500000,"y_nm":-38100000,"rotation":0}
+
+    ,
+    {"id":4,"component":4,"unit":"main","x_nm":-63500000,"y_nm":-25400000,"rotation":0}
+
+    ,
+    {"id":6,"component":6,"unit":"main","x_nm":-63500000,"y_nm":-12700000,"rotation":0}
+
+    ,
+    {"id":8,"component":8,"unit":"main","x_nm":-63500000,"y_nm":0,"rotation":0}
+
+    ,
+    {"id":10,"component":10,"unit":"main","x_nm":-31750000,"y_nm":-31750000,"rotation":0}
+
+    ,
+    {"id":12,"component":12,"unit":"main","x_nm":0,"y_nm":-31750000,"rotation":0}
+
+    ,
+    {"id":14,"component":14,"unit":"main","x_nm":25400000,"y_nm":-31750000,"rotation":0}
+
+    ,
+    {"id":16,"component":16,"unit":"main","x_nm":50800000,"y_nm":-31750000,"rotation":0}
+
+    ,
+    {"id":18,"component":18,"unit":"main","x_nm":76200000,"y_nm":-31750000,"rotation":0}
+
+    ,
+    {"id":20,"component":20,"unit":"main","x_nm":-50800000,"y_nm":19050000,"rotation":0}
+
+    ,
+    {"id":22,"component":22,"unit":"main","x_nm":-25400000,"y_nm":19050000,"rotation":0}
+
+    ,
+    {"id":24,"component":24,"unit":"main","x_nm":0,"y_nm":19050000,"rotation":0}
+
+    ,
+    {"id":26,"component":26,"unit":"main","x_nm":25400000,"y_nm":19050000,"rotation":0}
+
+    ,
+    {"id":28,"component":28,"unit":"main","x_nm":50800000,"y_nm":19050000,"rotation":0}
+
+    ,
+    {"id":30,"component":30,"unit":"main","x_nm":76200000,"y_nm":19050000,"rotation":0}
+
+    ,
+    {"id":32,"component":32,"unit":"main","x_nm":-50800000,"y_nm":38100000,"rotation":0}
+
+    ,
+    {"id":34,"component":34,"unit":"main","x_nm":-25400000,"y_nm":38100000,"rotation":0}
+
+    ,
+    {"id":36,"component":36,"unit":"main","x_nm":0,"y_nm":38100000,"rotation":0}
+
+    ,
+    {"id":38,"component":38,"unit":"main","x_nm":25400000,"y_nm":38100000,"rotation":0}
+
+    ,
+    {"id":40,"component":40,"unit":"main","x_nm":50800000,"y_nm":38100000,"rotation":0}
+
+    ,
+    {"id":42,"component":42,"unit":"main","x_nm":76200000,"y_nm":38100000,"rotation":0}
+  ],
+  "junctions": [
+  ],
+  "wires": [
+    {"id":44,"from":{"symbol":2,"pin":"1"},"to":{"symbol":10,"pin":"1"}}
+
+    ,
+    {"id":45,"from":{"symbol":4,"pin":"1"},"to":{"symbol":10,"pin":"1"}}
+
+    ,
+    {"id":46,"from":{"symbol":10,"pin":"3"},"to":{"symbol":12,"pin":"1"}}
+
+    ,
+    {"id":47,"from":{"symbol":12,"pin":"1"},"to":{"symbol":14,"pin":"1"}}
+
+    ,
+    {"id":48,"from":{"symbol":14,"pin":"1"},"to":{"symbol":16,"pin":"1"}}
+
+    ,
+    {"id":49,"from":{"symbol":16,"pin":"1"},"to":{"symbol":18,"pin":"1"}}
+
+    ,
+    {"id":50,"from":{"symbol":6,"pin":"1"},"to":{"symbol":8,"pin":"1"}}
+
+    ,
+    {"id":51,"from":{"symbol":8,"pin":"1"},"to":{"symbol":20,"pin":"1"}}
+
+    ,
+    {"id":52,"from":{"symbol":20,"pin":"1"},"to":{"symbol":22,"pin":"1"}}
+
+    ,
+    {"id":53,"from":{"symbol":22,"pin":"1"},"to":{"symbol":24,"pin":"1"}}
+
+    ,
+    {"id":54,"from":{"symbol":24,"pin":"1"},"to":{"symbol":26,"pin":"1"}}
+
+    ,
+    {"id":55,"from":{"symbol":26,"pin":"1"},"to":{"symbol":28,"pin":"1"}}
+
+    ,
+    {"id":56,"from":{"symbol":28,"pin":"1"},"to":{"symbol":30,"pin":"1"}}
+
+    ,
+    {"id":57,"from":{"symbol":32,"pin":"1"},"to":{"symbol":34,"pin":"1"}}
+
+    ,
+    {"id":58,"from":{"symbol":34,"pin":"1"},"to":{"symbol":36,"pin":"1"}}
+
+    ,
+    {"id":59,"from":{"symbol":36,"pin":"1"},"to":{"symbol":38,"pin":"1"}}
+
+    ,
+    {"id":60,"from":{"symbol":38,"pin":"1"},"to":{"symbol":40,"pin":"1"}}
+
+    ,
+    {"id":61,"from":{"symbol":40,"pin":"1"},"to":{"symbol":42,"pin":"1"}}
+
+    ,
+    {"id":62,"from":{"symbol":12,"pin":"2"},"to":{"symbol":14,"pin":"2"}}
+
+    ,
+    {"id":63,"from":{"symbol":12,"pin":"3"},"to":{"symbol":14,"pin":"3"}}
+
+    ,
+    {"id":64,"from":{"symbol":2,"pin":"2"},"to":{"symbol":10,"pin":"2"}}
+
+    ,
+    {"id":65,"from":{"symbol":4,"pin":"2"},"to":{"symbol":10,"pin":"2"}}
+
+    ,
+    {"id":66,"from":{"symbol":10,"pin":"2"},"to":{"symbol":12,"pin":"4"}}
+
+    ,
+    {"id":67,"from":{"symbol":12,"pin":"4"},"to":{"symbol":14,"pin":"4"}}
+
+    ,
+    {"id":68,"from":{"symbol":14,"pin":"4"},"to":{"symbol":16,"pin":"4"}}
+
+    ,
+    {"id":69,"from":{"symbol":16,"pin":"4"},"to":{"symbol":18,"pin":"4"}}
+  ]
+}
