@@ -1,0 +1,31 @@
+{"library":"breakout","format":"pcbcraft-symbol/1","id":"xt60","revision":1,"name":"XT60 Connector","reference_prefix":"J","default_value":"XT60","provenance":{"library_name":"RP2040 Breakout Library","license":"MIT OR Apache-2.0"}
+,
+  "terminals":[
+    {"id":"1","name":"VCC","electrical_type":"power_in"}
+    ,
+    {"id":"2","name":"GND","electrical_type":"power_in"}
+  ]
+  ,
+  "units":[
+    {"id":"main"
+    ,
+      "drawing":[
+        {"type":"rect","min_nm":[-2540000,-2540000],"max_nm":[2540000,2540000]}
+        ,
+        {"type":"text","at_nm":[0,-1270000],"text":"XT60","align":"middle"}
+        ,
+        {"type":"line","from_nm":[-5080000,-1270000],"to_nm":[-2540000,-1270000]}
+        ,
+        {"type":"line","from_nm":[-5080000,1270000],"to_nm":[-2540000,1270000]}
+        ,
+        {"type":"text","at_nm":[-1270000,-1270000],"text":"+","align":"start"}
+        ,
+        {"type":"text","at_nm":[-1270000,1270000],"text":"-","align":"start"}
+      ]
+      ,
+      "pins":[
+        {"terminal":"1","at_nm":[-5080000,-1270000]}
+        ,
+        {"terminal":"2","at_nm":[-5080000,1270000]}
+      ]}
+  ]}

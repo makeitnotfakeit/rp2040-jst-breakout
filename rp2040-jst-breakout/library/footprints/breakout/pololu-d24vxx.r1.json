@@ -1,0 +1,117 @@
+{
+  "format": "pcbcraft-footprint/1",
+  "library": "breakout",
+  "id": "pololu-d24vxx",
+  "revision": 1,
+  "name": "Pololu D24Vxx Step-Down",
+  "license": "MIT OR Apache-2.0",
+  "source": {
+    "kind": "original",
+    "reference": "Pololu D24Vxx series mechanical specification",
+    "locator": "4-pin 2.54 mm pitch"
+  },
+  "pads": [
+    {
+      "number": "1",
+      "center": {
+        "x_nm": -3810000,
+        "y_nm": 0
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "rectangle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "2",
+      "center": {
+        "x_nm": -1270000,
+        "y_nm": 0
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "3",
+      "center": {
+        "x_nm": 1270000,
+        "y_nm": 0
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "4",
+      "center": {
+        "x_nm": 3810000,
+        "y_nm": 0
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    }
+  ],
+  "graphics": [
+    {
+      "purpose": "fabrication",
+      "center": {
+        "x_nm": 0,
+        "y_nm": 0
+      },
+      "width_nm": 18000000,
+      "height_nm": 11000000,
+      "rotation": 0
+    },
+    {
+      "purpose": "courtyard",
+      "center": {
+        "x_nm": 0,
+        "y_nm": 0
+      },
+      "width_nm": 19000000,
+      "height_nm": 12000000,
+      "rotation": 0
+    }
+  ],
+  "silkscreen": [
+    {
+      "points": [
+        {
+          "x_nm": -9000000,
+          "y_nm": -5500000
+        },
+        {
+          "x_nm": 9000000,
+          "y_nm": -5500000
+        },
+        {
+          "x_nm": 9000000,
+          "y_nm": 5500000
+        },
+        {
+          "x_nm": -9000000,
+          "y_nm": 5500000
+        },
+        {
+          "x_nm": -9000000,
+          "y_nm": -5500000
+        }
+      ],
+      "closed": true
+    }
+  ],
+  "reference": "pcbcraft-technical-1"
+}

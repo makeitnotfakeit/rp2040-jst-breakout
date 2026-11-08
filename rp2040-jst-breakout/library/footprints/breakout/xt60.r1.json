@@ -1,41 +1,41 @@
 {
   "format": "pcbcraft-footprint/1",
-  "library": "starter",
-  "id": "header-1x02-254",
-  "revision": 3,
-  "name": "Pin header 1x02, 2.54 mm",
+  "library": "breakout",
+  "id": "xt60",
+  "revision": 1,
+  "name": "XT60 DC Power Connector",
   "license": "MIT OR Apache-2.0",
   "source": {
     "kind": "original",
-    "reference": "PCBcraft original parametric demo header",
-    "locator": "2.54 mm pitch; 1.70 mm copper lands; 1.00 mm plated drills; square pad 1, round pad 2; original silk centerlines and pcbcraft-technical-1 reference lettering"
+    "reference": "XT60 specification",
+    "locator": "7.2 mm pitch"
   },
   "pads": [
     {
       "number": "1",
       "center": {
-        "x_nm": -1270000,
+        "x_nm": -3600000,
         "y_nm": 0
       },
-      "width_nm": 1700000,
-      "height_nm": 1700000,
+      "width_nm": 5500000,
+      "height_nm": 5500000,
       "rotation": 0,
       "shape": "rectangle",
       "copper": "all_copper",
-      "drill_nm": 1000000
+      "drill_nm": 4000000
     },
     {
       "number": "2",
       "center": {
-        "x_nm": 1270000,
+        "x_nm": 3600000,
         "y_nm": 0
       },
-      "width_nm": 1700000,
-      "height_nm": 1700000,
+      "width_nm": 5500000,
+      "height_nm": 5500000,
       "rotation": 0,
       "shape": "circle",
       "copper": "all_copper",
-      "drill_nm": 1000000
+      "drill_nm": 4000000
     }
   ],
   "graphics": [
@@ -45,8 +45,8 @@
         "x_nm": 0,
         "y_nm": 0
       },
-      "width_nm": 5080000,
-      "height_nm": 2540000,
+      "width_nm": 16000000,
+      "height_nm": 9000000,
       "rotation": 0
     },
     {
@@ -55,8 +55,8 @@
         "x_nm": 0,
         "y_nm": 0
       },
-      "width_nm": 5580000,
-      "height_nm": 3040000,
+      "width_nm": 17000000,
+      "height_nm": 10000000,
       "rotation": 0
     }
   ],
@@ -64,20 +64,24 @@
     {
       "points": [
         {
-          "x_nm": -2540000,
-          "y_nm": -1270000
+          "x_nm": -8000000,
+          "y_nm": -4500000
         },
         {
-          "x_nm": 2540000,
-          "y_nm": -1270000
+          "x_nm": 8000000,
+          "y_nm": -4500000
         },
         {
-          "x_nm": 2540000,
-          "y_nm": 1270000
+          "x_nm": 8000000,
+          "y_nm": 4500000
         },
         {
-          "x_nm": -2540000,
-          "y_nm": 1270000
+          "x_nm": -8000000,
+          "y_nm": 4500000
+        },
+        {
+          "x_nm": -8000000,
+          "y_nm": -4500000
         }
       ],
       "closed": true

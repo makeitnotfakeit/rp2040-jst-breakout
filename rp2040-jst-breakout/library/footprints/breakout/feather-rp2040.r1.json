@@ -1,0 +1,429 @@
+{
+  "format": "pcbcraft-footprint/1",
+  "library": "breakout",
+  "id": "feather-rp2040",
+  "revision": 1,
+  "name": "Adafruit Feather RP2040 Socket",
+  "license": "MIT OR Apache-2.0",
+  "source": {
+    "kind": "original",
+    "reference": "Adafruit Feather RP2040 PID 4884 mechanical specification",
+    "locator": "2.0 in x 0.9 in; 0.8 in row spacing; 2.54 mm pitch"
+  },
+  "pads": [
+    {
+      "number": "1",
+      "center": {
+        "x_nm": -10160000,
+        "y_nm": 19050000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "rectangle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "2",
+      "center": {
+        "x_nm": -10160000,
+        "y_nm": 16510000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "3",
+      "center": {
+        "x_nm": -10160000,
+        "y_nm": 13970000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "4",
+      "center": {
+        "x_nm": -10160000,
+        "y_nm": 11430000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "5",
+      "center": {
+        "x_nm": -10160000,
+        "y_nm": 8890000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "6",
+      "center": {
+        "x_nm": -10160000,
+        "y_nm": 6350000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "7",
+      "center": {
+        "x_nm": -10160000,
+        "y_nm": 3810000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "8",
+      "center": {
+        "x_nm": -10160000,
+        "y_nm": 1269999
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "9",
+      "center": {
+        "x_nm": -10160000,
+        "y_nm": -1269999
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "10",
+      "center": {
+        "x_nm": -10160000,
+        "y_nm": -3809999
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "11",
+      "center": {
+        "x_nm": -10160000,
+        "y_nm": -6349999
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "12",
+      "center": {
+        "x_nm": -10160000,
+        "y_nm": -8890000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "13",
+      "center": {
+        "x_nm": -10160000,
+        "y_nm": -11430000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "14",
+      "center": {
+        "x_nm": -10160000,
+        "y_nm": -13970000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "15",
+      "center": {
+        "x_nm": -10160000,
+        "y_nm": -16510000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "16",
+      "center": {
+        "x_nm": -10160000,
+        "y_nm": -19050000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "17",
+      "center": {
+        "x_nm": 10160000,
+        "y_nm": 13970000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "rectangle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "18",
+      "center": {
+        "x_nm": 10160000,
+        "y_nm": 11430000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "19",
+      "center": {
+        "x_nm": 10160000,
+        "y_nm": 8890000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "20",
+      "center": {
+        "x_nm": 10160000,
+        "y_nm": 6350000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "21",
+      "center": {
+        "x_nm": 10160000,
+        "y_nm": 3810000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "22",
+      "center": {
+        "x_nm": 10160000,
+        "y_nm": 1270000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "23",
+      "center": {
+        "x_nm": 10160000,
+        "y_nm": -1269999
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "24",
+      "center": {
+        "x_nm": 10160000,
+        "y_nm": -3810000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "25",
+      "center": {
+        "x_nm": 10160000,
+        "y_nm": -6350000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "26",
+      "center": {
+        "x_nm": 10160000,
+        "y_nm": -8889999
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "27",
+      "center": {
+        "x_nm": 10160000,
+        "y_nm": -11429999
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    },
+    {
+      "number": "28",
+      "center": {
+        "x_nm": 10160000,
+        "y_nm": -13970000
+      },
+      "width_nm": 1700000,
+      "height_nm": 1700000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 1000000
+    }
+  ],
+  "graphics": [
+    {
+      "purpose": "fabrication",
+      "center": {
+        "x_nm": 0,
+        "y_nm": 0
+      },
+      "width_nm": 22860000,
+      "height_nm": 50800000,
+      "rotation": 0
+    },
+    {
+      "purpose": "courtyard",
+      "center": {
+        "x_nm": 0,
+        "y_nm": 0
+      },
+      "width_nm": 23860000,
+      "height_nm": 51800000,
+      "rotation": 0
+    }
+  ],
+  "silkscreen": [
+    {
+      "points": [
+        {
+          "x_nm": -11430000,
+          "y_nm": -25400000
+        },
+        {
+          "x_nm": 11430000,
+          "y_nm": -25400000
+        },
+        {
+          "x_nm": 11430000,
+          "y_nm": 25400000
+        },
+        {
+          "x_nm": -11430000,
+          "y_nm": 25400000
+        },
+        {
+          "x_nm": -11430000,
+          "y_nm": -25400000
+        }
+      ],
+      "closed": true
+    }
+  ],
+  "reference": "pcbcraft-technical-1"
+}

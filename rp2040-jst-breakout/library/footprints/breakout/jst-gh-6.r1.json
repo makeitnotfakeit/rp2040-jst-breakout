@@ -1,0 +1,143 @@
+{
+  "format": "pcbcraft-footprint/1",
+  "library": "breakout",
+  "id": "jst-gh-6",
+  "revision": 1,
+  "name": "JST-GH 6-Pin Header",
+  "license": "MIT OR Apache-2.0",
+  "source": {
+    "kind": "original",
+    "reference": "JST GH 1.25 mm 6-pin",
+    "locator": "1.25 mm pitch; 6 pins"
+  },
+  "pads": [
+    {
+      "number": "1",
+      "center": {
+        "x_nm": -3125000,
+        "y_nm": 0
+      },
+      "width_nm": 1300000,
+      "height_nm": 1300000,
+      "rotation": 0,
+      "shape": "rectangle",
+      "copper": "all_copper",
+      "drill_nm": 800000
+    },
+    {
+      "number": "2",
+      "center": {
+        "x_nm": -1875000,
+        "y_nm": 0
+      },
+      "width_nm": 1300000,
+      "height_nm": 1300000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 800000
+    },
+    {
+      "number": "3",
+      "center": {
+        "x_nm": -625000,
+        "y_nm": 0
+      },
+      "width_nm": 1300000,
+      "height_nm": 1300000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 800000
+    },
+    {
+      "number": "4",
+      "center": {
+        "x_nm": 625000,
+        "y_nm": 0
+      },
+      "width_nm": 1300000,
+      "height_nm": 1300000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 800000
+    },
+    {
+      "number": "5",
+      "center": {
+        "x_nm": 1875000,
+        "y_nm": 0
+      },
+      "width_nm": 1300000,
+      "height_nm": 1300000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 800000
+    },
+    {
+      "number": "6",
+      "center": {
+        "x_nm": 3125000,
+        "y_nm": 0
+      },
+      "width_nm": 1300000,
+      "height_nm": 1300000,
+      "rotation": 0,
+      "shape": "circle",
+      "copper": "all_copper",
+      "drill_nm": 800000
+    }
+  ],
+  "graphics": [
+    {
+      "purpose": "fabrication",
+      "center": {
+        "x_nm": 0,
+        "y_nm": 0
+      },
+      "width_nm": 9250000,
+      "height_nm": 5000000,
+      "rotation": 0
+    },
+    {
+      "purpose": "courtyard",
+      "center": {
+        "x_nm": 0,
+        "y_nm": 0
+      },
+      "width_nm": 10250000,
+      "height_nm": 6000000,
+      "rotation": 0
+    }
+  ],
+  "silkscreen": [
+    {
+      "points": [
+        {
+          "x_nm": -4625000,
+          "y_nm": -2500000
+        },
+        {
+          "x_nm": 4625000,
+          "y_nm": -2500000
+        },
+        {
+          "x_nm": 4625000,
+          "y_nm": 2500000
+        },
+        {
+          "x_nm": -4625000,
+          "y_nm": 2500000
+        },
+        {
+          "x_nm": -4625000,
+          "y_nm": -2500000
+        }
+      ],
+      "closed": true
+    }
+  ],
+  "reference": "pcbcraft-technical-1"
+}

@@ -1,69 +1,78 @@
 {
   "format": "pcbcraft-project/6",
-  "id": "6736452b-abe2-4c97-a358-534c3cbbc11f",
+  "id": "1cb615a8-f9d0-44f4-82e5-008b26c1cea6",
   "name": "RP2040 JST-GH Breakout Board",
-  "sheets": [{"id":"34d114dd-73f9-4deb-999b-192c8e78c626","name":"Main","file":"sheets/34d114dd-73f9-4deb-999b-192c8e78c626.json"}],
+  "sheets": [{"id":"4517ece3-bcf0-4afd-b6b1-403981b246e4","name":"Main","file":"sheets/4517ece3-bcf0-4afd-b6b1-403981b246e4.json"}],
   "components": [
-    {"id":2,"library":"starter","definition":"connector","definition_revision":2,"reference_number":1,"reference":"J_XT_HV1","value":"XT30-Batt"}
+    {"id":2,"library":"breakout","definition":"feather-rp2040","definition_revision":1,"reference_number":1,"reference":"U_FEATHER","value":"Feather-RP2040"}
 
     ,
-    {"id":4,"library":"starter","definition":"connector","definition_revision":2,"reference_number":2,"reference":"J_XT_HV2","value":"XT60-Batt"}
+    {"id":4,"library":"breakout","definition":"pololu-d24vxx","definition_revision":1,"reference_number":2,"reference":"U_POLOLU","value":"Pololu-D24Vxx"}
 
     ,
-    {"id":6,"library":"starter","definition":"connector","definition_revision":2,"reference_number":3,"reference":"J_XT_5V1","value":"XT30-5V"}
+    {"id":6,"library":"breakout","definition":"xt30","definition_revision":1,"reference_number":1,"reference":"J_XT_HV1","value":"XT30-Batt"}
 
     ,
-    {"id":8,"library":"starter","definition":"connector","definition_revision":2,"reference_number":4,"reference":"J_XT_5V2","value":"XT60-5V"}
+    {"id":8,"library":"breakout","definition":"xt60","definition_revision":1,"reference_number":2,"reference":"J_XT_HV2","value":"XT60-Batt"}
 
     ,
-    {"id":10,"library":"starter","definition":"header-4","definition_revision":1,"reference_number":5,"reference":"U_POLOLU","value":"Pololu-D24Vxx"}
+    {"id":10,"library":"breakout","definition":"xt30","definition_revision":1,"reference_number":3,"reference":"J_XT_5V1","value":"XT30-5V"}
 
     ,
-    {"id":12,"library":"starter","definition":"header-4","definition_revision":1,"reference_number":6,"reference":"J_UART1","value":"UART0-Primary"}
+    {"id":12,"library":"breakout","definition":"xt60","definition_revision":1,"reference_number":4,"reference":"J_XT_5V2","value":"XT60-5V"}
 
     ,
-    {"id":14,"library":"starter","definition":"header-4","definition_revision":1,"reference_number":7,"reference":"J_UART2","value":"UART0-Duplicate"}
+    {"id":14,"library":"breakout","definition":"jst-gh-4","definition_revision":1,"reference_number":5,"reference":"J_UART1","value":"UART0-Primary"}
 
     ,
-    {"id":16,"library":"starter","definition":"header-4","definition_revision":1,"reference_number":8,"reference":"J_A0_A1","value":"A0/A1"}
+    {"id":16,"library":"breakout","definition":"jst-gh-4","definition_revision":1,"reference_number":6,"reference":"J_UART2","value":"UART0-Duplicate"}
 
     ,
-    {"id":18,"library":"starter","definition":"header-4","definition_revision":1,"reference_number":9,"reference":"J_A2_VREF","value":"A2/VREF"}
+    {"id":18,"library":"breakout","definition":"jst-gh-4","definition_revision":1,"reference_number":7,"reference":"J_A0_A1","value":"A0/A1"}
 
     ,
-    {"id":20,"library":"starter","definition":"header-4","definition_revision":1,"reference_number":10,"reference":"J_D0_D1","value":"GP0/GP1"}
+    {"id":20,"library":"breakout","definition":"jst-gh-4","definition_revision":1,"reference_number":8,"reference":"J_A2_A3","value":"A2/A3"}
 
     ,
-    {"id":22,"library":"starter","definition":"header-4","definition_revision":1,"reference_number":11,"reference":"J_D2_D3","value":"GP2/GP3"}
+    {"id":22,"library":"breakout","definition":"jst-gh-4","definition_revision":1,"reference_number":9,"reference":"J_D4_D5","value":"D4/D5"}
 
     ,
-    {"id":24,"library":"starter","definition":"header-4","definition_revision":1,"reference_number":12,"reference":"J_D4_D5","value":"GP4/GP5"}
+    {"id":24,"library":"breakout","definition":"jst-gh-4","definition_revision":1,"reference_number":10,"reference":"J_D6_D9","value":"D6/D9"}
 
     ,
-    {"id":26,"library":"starter","definition":"header-4","definition_revision":1,"reference_number":13,"reference":"J_D6_D7","value":"GP6/GP7"}
+    {"id":26,"library":"breakout","definition":"jst-gh-4","definition_revision":1,"reference_number":11,"reference":"J_D10_D11","value":"D10/D11"}
 
     ,
-    {"id":28,"library":"starter","definition":"header-4","definition_revision":1,"reference_number":14,"reference":"J_D8_D9","value":"GP8/GP9"}
+    {"id":28,"library":"breakout","definition":"jst-gh-4","definition_revision":1,"reference_number":12,"reference":"J_D12_D13","value":"D12/D13"}
 
     ,
-    {"id":30,"library":"starter","definition":"header-4","definition_revision":1,"reference_number":15,"reference":"J_D10_D11","value":"GP10/GP11"}
+    {"id":30,"library":"breakout","definition":"jst-gh-4","definition_revision":1,"reference_number":13,"reference":"J_D24_D25","value":"D24/D25"}
 
     ,
-    {"id":32,"library":"starter","definition":"header-4","definition_revision":1,"reference_number":16,"reference":"J_D12_D13","value":"GP12/GP13"}
+    {"id":32,"library":"breakout","definition":"jst-gh-4","definition_revision":1,"reference_number":14,"reference":"J_SCK_MOSI","value":"SCK/MOSI"}
 
     ,
-    {"id":34,"library":"starter","definition":"header-4","definition_revision":1,"reference_number":17,"reference":"J_D14_D15","value":"GP14/GP15"}
+    {"id":34,"library":"breakout","definition":"jst-gh-4","definition_revision":1,"reference_number":15,"reference":"J_MISO_SDA","value":"MISO/SDA"}
 
     ,
-    {"id":36,"library":"starter","definition":"header-4","definition_revision":1,"reference_number":18,"reference":"J_D16_D17","value":"GP16/GP17"}
+    {"id":36,"library":"breakout","definition":"jst-gh-4","definition_revision":1,"reference_number":16,"reference":"J_SCL_RST","value":"SCL/RESET"}
 
     ,
-    {"id":38,"library":"starter","definition":"header-4","definition_revision":1,"reference_number":19,"reference":"J_D18_D19","value":"GP18/GP19"}
+    {"id":38,"library":"breakout","definition":"jst-gh-6","definition_revision":1,"reference_number":17,"reference":"J_ADC_QUAD","value":"A0-A3-Quad"}
 
     ,
-    {"id":40,"library":"starter","definition":"header-4","definition_revision":1,"reference_number":20,"reference":"J_D20_D21","value":"GP20/GP21"}
+    {"id":40,"library":"breakout","definition":"jst-gh-6","definition_revision":1,"reference_number":18,"reference":"J_SPI_QUAD","value":"SPI-Quad"}
 
     ,
-    {"id":42,"library":"starter","definition":"header-4","definition_revision":1,"reference_number":21,"reference":"J_D22_RUN","value":"GP22/RUN"}
+    {"id":42,"library":"breakout","definition":"jst-gh-6","definition_revision":1,"reference_number":19,"reference":"J_COMMS_QUAD","value":"I2C/UART"}
+
+    ,
+    {"id":44,"library":"breakout","definition":"jst-gh-6","definition_revision":1,"reference_number":20,"reference":"J_GPIO_QUAD","value":"D4-D9-Quad"}
+
+    ,
+    {"id":46,"library":"breakout","definition":"jst-gh-10","definition_revision":1,"reference_number":21,"reference":"J_OCTAL_10","value":"GPIO-Octal"}
+
+    ,
+    {"id":48,"library":"breakout","definition":"jst-gh-13","definition_revision":1,"reference_number":22,"reference":"J_WIDE_13","value":"Main-Bus-13"}
   ]
 }
