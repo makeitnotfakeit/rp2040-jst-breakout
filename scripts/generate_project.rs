@@ -3,13 +3,15 @@
 use std::{collections::BTreeMap, error::Error, fs, path::PathBuf};
 
 use pcbcraft_engine::{
-    ASSIGN_FOOTPRINT, CONNECT_PINS, INITIALIZE_BOARD_SETUP, PLACE_ASSIGNED_FOOTPRINT, PLACE_SYMBOL,
-    SET_SYMBOL_FIELDS, Session,
+    ADD_DRAWING, ASSIGN_FOOTPRINT, CONNECT_PINS, INITIALIZE_BOARD_SETUP, PLACE_ASSIGNED_FOOTPRINT,
+    PLACE_SYMBOL, SET_BOARD_SETUP, SET_SYMBOL_FIELDS, Session,
+    board::setup::LayerPurpose,
     library::sources::Kind,
+    net_labels,
     persistence::{encode_documents, encode_packed},
     schematic::GRID_NM,
 };
-use serde_json::{Value, json};
+use serde_json::json;
 
 fn main() -> Result<(), Box<dyn Error>> {
     let mut args = std::env::args_os().skip(1);
@@ -235,9 +237,80 @@ fn main() -> Result<(), Box<dyn Error>> {
     // RESET (Feather Pin 1)
     connect(&mut session, &u_feather, "1", &j_scl_rst, "3")?;
 
+    // Net Labels for major rails and communication buses
+    session.apply(net_labels::ADD, &json!({
+        "name": "GND",
+        "style": "ground",
+        "x_nm": -7 * GRID_NM,
+        "y_nm": -5 * GRID_NM,
+        "expected_revision": session.revision(),
+    }))?;
+    session.apply(net_labels::ADD, &json!({
+        "name": "+5V",
+        "style": "power",
+        "x_nm": 7 * GRID_NM,
+        "y_nm": -4 * GRID_NM,
+        "expected_revision": session.revision(),
+    }))?;
+    session.apply(net_labels::ADD, &json!({
+        "name": "UART0_RX",
+        "style": "global",
+        "x_nm": -7 * GRID_NM,
+        "y_nm": 5 * GRID_NM,
+        "expected_revision": session.revision(),
+    }))?;
+    session.apply(net_labels::ADD, &json!({
+        "name": "UART0_TX",
+        "style": "global",
+        "x_nm": -7 * GRID_NM,
+        "y_nm": 6 * GRID_NM,
+        "expected_revision": session.revision(),
+    }))?;
+
     // --- 3. BOARD INITIALIZATION & PHYSICAL FOOTPRINT PLACEMENT ---
+    // Initialize 4-layer stackup: Top (Signals), GND (Internal plane), 5V (Internal plane), Bottom (Signals)
     session.apply(INITIALIZE_BOARD_SETUP, &json!({
-        "copper_layers": 2,
+        "copper_layers": 4,
+        "expected_revision": session.revision(),
+    }))?;
+
+    // Rename inner copper layers to designated GND and 5V power planes
+    let before_setup = session
+        .project()
+        .and_then(|p| p.board_view(p.board_target()))
+        .and_then(|b| b.setup())
+        .cloned()
+        .ok_or("no setup")?;
+    let mut setup_records = serde_json::to_value(&before_setup)?;
+    if let Some(layers) = setup_records.get_mut("layers").and_then(|l| l.as_array_mut()) {
+        for layer in layers {
+            if layer.get("name").and_then(|n| n.as_str()) == Some("Inner 1") {
+                layer["name"] = json!("GND");
+            } else if layer.get("name").and_then(|n| n.as_str()) == Some("Inner 2") {
+                layer["name"] = json!("5V");
+            }
+        }
+    }
+    session.apply(SET_BOARD_SETUP, &json!({
+        "setup": setup_records,
+        "expected_revision": session.revision(),
+    }))?;
+
+    // Add board edge drawing (outline) bounding all components
+    let outline_layer = before_setup
+        .layers()
+        .iter()
+        .find(|l| l.purpose == LayerPurpose::Outline)
+        .ok_or("no outline layer")?;
+    session.apply(ADD_DRAWING, &json!({
+        "layer": outline_layer.id,
+        "points": [
+            {"x_nm": -70_000_000, "y_nm": -45_000_000},
+            {"x_nm": 70_000_000, "y_nm": -45_000_000},
+            {"x_nm": 70_000_000, "y_nm": 45_000_000},
+            {"x_nm": -70_000_000, "y_nm": 45_000_000},
+        ],
+        "closed": true,
         "expected_revision": session.revision(),
     }))?;
 

@@ -1,6 +1,22 @@
 {
-  "format": "pcbcraft-sheet/1",
-  "id": "4517ece3-bcf0-4afd-b6b1-403981b246e4",
+  "format": "pcbcraft-sheet/3",
+  "id": "5c1660b9-224f-42ae-aa1c-b15e0492c571",
+  "net_labels": [
+    {"id":155,"name":"GND","style":"ground","at":{"x_nm":-8890000,"y_nm":-6350000},"rotation":0}
+
+    ,
+    {"id":156,"name":"+5V","style":"power","at":{"x_nm":8890000,"y_nm":-5080000},"rotation":0}
+
+    ,
+    {"id":157,"name":"UART0_RX","style":"global","at":{"x_nm":-8890000,"y_nm":6350000},"rotation":0}
+
+    ,
+    {"id":158,"name":"UART0_TX","style":"global","at":{"x_nm":-8890000,"y_nm":7620000},"rotation":0}
+  ],
+  "labels": [
+  ],
+  "subsheets": [
+  ],
   "symbols": [
     {"id":2,"component":2,"unit":"main","x_nm":0,"y_nm":0,"rotation":0}
 

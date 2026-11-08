@@ -1,57 +1,82 @@
 {
-  "format": "pcbcraft-board/7",
+  "format": "pcbcraft-board/9",
   "setup": {
     "layers": [
-    {"id":"05a1b99b-272c-4b2c-bc86-95eb111b87e8","name":"Front silkscreen","purpose":"silkscreen","side":"front"}
+    {"id":"03cc71d1-08d3-4eec-be9c-4992ef7b1209","name":"5V","purpose":"copper"}
 
     ,
-    {"id":"30e66660-3a2d-4224-8b74-799ed395ed25","name":"Top","purpose":"copper","side":"front"}
+    {"id":"14a73d30-15be-4f09-8826-dae0ca17e63b","name":"Front mask","purpose":"mask","side":"front"}
 
     ,
-    {"id":"3c3d2136-32a7-457a-8ad5-0abe598e9741","name":"Back silkscreen","purpose":"silkscreen","side":"back"}
+    {"id":"3b531648-7b35-4d2b-9707-b130b0d53a86","name":"Back fabrication","purpose":"fabrication","side":"back"}
 
     ,
-    {"id":"435927d3-d5c9-4307-bb6d-f1cc196376c9","name":"Front paste","purpose":"paste","side":"front"}
+    {"id":"5d2a0548-9bc1-40f9-ac37-f1a3033552c7","name":"Back courtyard","purpose":"courtyard","side":"back"}
 
     ,
-    {"id":"707eae6d-a5e6-4cea-9b6b-5b06c606d724","name":"Board outline","purpose":"outline"}
+    {"id":"72462bee-3112-40a7-aee8-da5018bcd94f","name":"Front silkscreen","purpose":"silkscreen","side":"front"}
 
     ,
-    {"id":"75fc08fb-98bb-49d3-88b7-2073a92d573f","name":"Back mask","purpose":"mask","side":"back"}
+    {"id":"7a6dfa89-d5f2-44e1-bab5-f5592c7bf023","name":"GND","purpose":"copper"}
 
     ,
-    {"id":"7ce0cb71-2786-46c0-bc67-9c50215979f9","name":"Front fabrication","purpose":"fabrication","side":"front"}
+    {"id":"7e197cc5-ab78-48a5-92b9-7c8e998ac5f3","name":"Bottom","purpose":"copper","side":"back"}
 
     ,
-    {"id":"836e2399-6756-4089-b98b-abcda6b3cd7b","name":"Front mask","purpose":"mask","side":"front"}
+    {"id":"838a7f3e-1aef-4f82-9a56-dc4c65159e68","name":"Top","purpose":"copper","side":"front"}
 
     ,
-    {"id":"916c24bc-0ab2-4fc4-94f6-a79316f9ffb1","name":"Back fabrication","purpose":"fabrication","side":"back"}
+    {"id":"8f2d7a30-600c-446f-867b-7ab5f5bd17f1","name":"Front fabrication","purpose":"fabrication","side":"front"}
 
     ,
-    {"id":"b8e0b17a-d8d9-4f6d-9777-53420a9a4c65","name":"Front courtyard","purpose":"courtyard","side":"front"}
+    {"id":"91cabdca-fa43-40d2-850c-6904d998fb4b","name":"Back silkscreen","purpose":"silkscreen","side":"back"}
 
     ,
-    {"id":"ca8206ff-9946-4feb-b9c0-6588a1ecd25b","name":"Bottom","purpose":"copper","side":"back"}
+    {"id":"a4494c79-6ab8-4960-aa6e-0091ca87bbbb","name":"Front paste","purpose":"paste","side":"front"}
 
     ,
-    {"id":"d79a54ad-0e77-474c-852d-57adf37661fc","name":"Back paste","purpose":"paste","side":"back"}
+    {"id":"e1172dd1-c56e-4df3-9808-a9c3c3836e76","name":"Back paste","purpose":"paste","side":"back"}
 
     ,
-    {"id":"ee4816b4-5fa6-45e5-aea4-4ad2a0d51472","name":"Back courtyard","purpose":"courtyard","side":"back"}
+    {"id":"ec0f4d99-cfb1-4dda-8fc0-f55133cd9e24","name":"Back mask","purpose":"mask","side":"back"}
+
+    ,
+    {"id":"fad922af-ab57-43d3-b2aa-e83cc78d06a3","name":"Board Edge","purpose":"outline"}
+
+    ,
+    {"id":"fead0ed9-ab3c-409c-b18a-7b71dfdc9ff3","name":"Front courtyard","purpose":"courtyard","side":"front"}
     ],
     "stackup": {
-      "id": "d6585009-f28b-41fa-aa33-cd7a19a73070",
+      "id": "c4e5c1e4-91ba-4c42-bd13-635e7d536b96",
       "strata": [
-    {"kind":"copper","layer":"30e66660-3a2d-4224-8b74-799ed395ed25"}
+    {"kind":"copper","layer":"838a7f3e-1aef-4f82-9a56-dc4c65159e68"}
 
     ,
-    {"kind":"dielectric","id":"3a939085-e6a0-4cbd-842d-3d97f946f0ae"}
+    {"kind":"dielectric","id":"204b2e06-65fa-4149-81bb-59944e0e1fe4"}
 
     ,
-    {"kind":"copper","layer":"ca8206ff-9946-4feb-b9c0-6588a1ecd25b"}
+    {"kind":"copper","layer":"7a6dfa89-d5f2-44e1-bab5-f5592c7bf023"}
+
+    ,
+    {"kind":"dielectric","id":"e594e40a-942e-46fc-b7ed-20e55cda9f4d"}
+
+    ,
+    {"kind":"copper","layer":"03cc71d1-08d3-4eec-be9c-4992ef7b1209"}
+
+    ,
+    {"kind":"dielectric","id":"bf83c237-7b5d-447c-833e-7dac4185224f"}
+
+    ,
+    {"kind":"copper","layer":"7e197cc5-ab78-48a5-92b9-7c8e998ac5f3"}
       ]
     }
+  },
+  "graphics": {
+    "layers": [
+    ],
+    "items": [
+    {"id":"9eb5f03b-ed83-4a6c-b251-8c06a38a1865","layer":"fad922af-ab57-43d3-b2aa-e83cc78d06a3","points":[{"x_nm":-70000000,"y_nm":-45000000},{"x_nm":70000000,"y_nm":-45000000},{"x_nm":70000000,"y_nm":45000000},{"x_nm":-70000000,"y_nm":45000000}],"closed":true}
+    ]
   },
   "assignments": [
     {"component":2,"library":"breakout","definition":"feather-rp2040","definition_revision":1,"mapping":{"1":"1","10":"10","11":"11","12":"12","13":"13","14":"14","15":"15","16":"16","17":"17","18":"18","19":"19","2":"2","20":"20","21":"21","22":"22","23":"23","24":"24","25":"25","26":"26","27":"27","28":"28","3":"3","4":"4","5":"5","6":"6","7":"7","8":"8","9":"9"}}
@@ -126,75 +151,75 @@
     {"component":48,"library":"breakout","definition":"jst-gh-13","definition_revision":1,"mapping":{"1":"1","10":"10","11":"11","12":"12","13":"13","2":"2","3":"3","4":"4","5":"5","6":"6","7":"7","8":"8","9":"9"}}
   ],
   "footprints": [
-    {"id":157,"component":2,"definition":"feather-rp2040","definition_revision":1,"library":"breakout","mapping":{"1":"1","10":"10","11":"11","12":"12","13":"13","14":"14","15":"15","16":"16","17":"17","18":"18","19":"19","2":"2","20":"20","21":"21","22":"22","23":"23","24":"24","25":"25","26":"26","27":"27","28":"28","3":"3","4":"4","5":"5","6":"6","7":"7","8":"8","9":"9"},"x_nm":0,"y_nm":0}
+    {"id":163,"component":2,"definition":"feather-rp2040","definition_revision":1,"library":"breakout","mapping":{"1":"1","10":"10","11":"11","12":"12","13":"13","14":"14","15":"15","16":"16","17":"17","18":"18","19":"19","2":"2","20":"20","21":"21","22":"22","23":"23","24":"24","25":"25","26":"26","27":"27","28":"28","3":"3","4":"4","5":"5","6":"6","7":"7","8":"8","9":"9"},"x_nm":0,"y_nm":0}
 
     ,
-    {"id":159,"component":4,"definition":"pololu-d24vxx","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":-35000000,"y_nm":-15000000}
+    {"id":165,"component":4,"definition":"pololu-d24vxx","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":-35000000,"y_nm":-15000000}
 
     ,
-    {"id":161,"component":6,"definition":"xt30","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2"},"x_nm":-55000000,"y_nm":-25000000}
+    {"id":167,"component":6,"definition":"xt30","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2"},"x_nm":-55000000,"y_nm":-25000000}
 
     ,
-    {"id":163,"component":8,"definition":"xt60","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2"},"x_nm":-55000000,"y_nm":-10000000}
+    {"id":169,"component":8,"definition":"xt60","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2"},"x_nm":-55000000,"y_nm":-10000000}
 
     ,
-    {"id":165,"component":10,"definition":"xt30","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2"},"x_nm":-55000000,"y_nm":10000000}
+    {"id":171,"component":10,"definition":"xt30","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2"},"x_nm":-55000000,"y_nm":10000000}
 
     ,
-    {"id":167,"component":12,"definition":"xt60","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2"},"x_nm":-55000000,"y_nm":25000000}
+    {"id":173,"component":12,"definition":"xt60","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2"},"x_nm":-55000000,"y_nm":25000000}
 
     ,
-    {"id":169,"component":14,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":-25000000,"y_nm":-38000000}
+    {"id":175,"component":14,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":-25000000,"y_nm":-38000000}
 
     ,
-    {"id":171,"component":16,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":-10000000,"y_nm":-38000000}
+    {"id":177,"component":16,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":-10000000,"y_nm":-38000000}
 
     ,
-    {"id":173,"component":18,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":5000000,"y_nm":-38000000}
+    {"id":179,"component":18,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":5000000,"y_nm":-38000000}
 
     ,
-    {"id":175,"component":20,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":20000000,"y_nm":-38000000}
+    {"id":181,"component":20,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":20000000,"y_nm":-38000000}
 
     ,
-    {"id":177,"component":22,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":35000000,"y_nm":-38000000}
+    {"id":183,"component":22,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":35000000,"y_nm":-38000000}
 
     ,
-    {"id":179,"component":24,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":50000000,"y_nm":-38000000}
+    {"id":185,"component":24,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":50000000,"y_nm":-38000000}
 
     ,
-    {"id":181,"component":26,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":-25000000,"y_nm":38000000}
+    {"id":187,"component":26,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":-25000000,"y_nm":38000000}
 
     ,
-    {"id":183,"component":28,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":-10000000,"y_nm":38000000}
+    {"id":189,"component":28,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":-10000000,"y_nm":38000000}
 
     ,
-    {"id":185,"component":30,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":5000000,"y_nm":38000000}
+    {"id":191,"component":30,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":5000000,"y_nm":38000000}
 
     ,
-    {"id":187,"component":32,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":20000000,"y_nm":38000000}
+    {"id":193,"component":32,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":20000000,"y_nm":38000000}
 
     ,
-    {"id":189,"component":34,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":35000000,"y_nm":38000000}
+    {"id":195,"component":34,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":35000000,"y_nm":38000000}
 
     ,
-    {"id":191,"component":36,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":50000000,"y_nm":38000000}
+    {"id":197,"component":36,"definition":"jst-gh-4","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4"},"x_nm":50000000,"y_nm":38000000}
 
     ,
-    {"id":193,"component":38,"definition":"jst-gh-6","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4","5":"5","6":"6"},"x_nm":35000000,"y_nm":-18000000}
+    {"id":199,"component":38,"definition":"jst-gh-6","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4","5":"5","6":"6"},"x_nm":35000000,"y_nm":-18000000}
 
     ,
-    {"id":195,"component":40,"definition":"jst-gh-6","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4","5":"5","6":"6"},"x_nm":35000000,"y_nm":-6000000}
+    {"id":201,"component":40,"definition":"jst-gh-6","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4","5":"5","6":"6"},"x_nm":35000000,"y_nm":-6000000}
 
     ,
-    {"id":197,"component":42,"definition":"jst-gh-6","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4","5":"5","6":"6"},"x_nm":35000000,"y_nm":6000000}
+    {"id":203,"component":42,"definition":"jst-gh-6","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4","5":"5","6":"6"},"x_nm":35000000,"y_nm":6000000}
 
     ,
-    {"id":199,"component":44,"definition":"jst-gh-6","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4","5":"5","6":"6"},"x_nm":35000000,"y_nm":18000000}
+    {"id":205,"component":44,"definition":"jst-gh-6","definition_revision":1,"library":"breakout","mapping":{"1":"1","2":"2","3":"3","4":"4","5":"5","6":"6"},"x_nm":35000000,"y_nm":18000000}
 
     ,
-    {"id":201,"component":46,"definition":"jst-gh-10","definition_revision":1,"library":"breakout","mapping":{"1":"1","10":"10","2":"2","3":"3","4":"4","5":"5","6":"6","7":"7","8":"8","9":"9"},"x_nm":55000000,"y_nm":-10000000}
+    {"id":207,"component":46,"definition":"jst-gh-10","definition_revision":1,"library":"breakout","mapping":{"1":"1","10":"10","2":"2","3":"3","4":"4","5":"5","6":"6","7":"7","8":"8","9":"9"},"x_nm":55000000,"y_nm":-10000000}
 
     ,
-    {"id":203,"component":48,"definition":"jst-gh-13","definition_revision":1,"library":"breakout","mapping":{"1":"1","10":"10","11":"11","12":"12","13":"13","2":"2","3":"3","4":"4","5":"5","6":"6","7":"7","8":"8","9":"9"},"x_nm":55000000,"y_nm":15000000}
+    {"id":209,"component":48,"definition":"jst-gh-13","definition_revision":1,"library":"breakout","mapping":{"1":"1","10":"10","11":"11","12":"12","13":"13","2":"2","3":"3","4":"4","5":"5","6":"6","7":"7","8":"8","9":"9"},"x_nm":55000000,"y_nm":15000000}
   ]
 }

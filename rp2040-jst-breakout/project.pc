@@ -1,8 +1,8 @@
 {
   "format": "pcbcraft-project/6",
-  "id": "1cb615a8-f9d0-44f4-82e5-008b26c1cea6",
+  "id": "22b432ae-6304-4f1d-bbaf-ad00ee968dac",
   "name": "RP2040 JST-GH Breakout Board",
-  "sheets": [{"id":"4517ece3-bcf0-4afd-b6b1-403981b246e4","name":"Main","file":"sheets/4517ece3-bcf0-4afd-b6b1-403981b246e4.json"}],
+  "sheets": [{"id":"5c1660b9-224f-42ae-aa1c-b15e0492c571","name":"Main","file":"sheets/5c1660b9-224f-42ae-aa1c-b15e0492c571.json"}],
   "components": [
     {"id":2,"library":"breakout","definition":"feather-rp2040","definition_revision":1,"reference_number":1,"reference":"U_FEATHER","value":"Feather-RP2040"}
 
