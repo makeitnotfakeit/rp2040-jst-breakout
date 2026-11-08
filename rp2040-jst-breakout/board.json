@@ -2,72 +2,72 @@
   "format": "pcbcraft-board/9",
   "setup": {
     "layers": [
-    {"id":"03cc71d1-08d3-4eec-be9c-4992ef7b1209","name":"5V","purpose":"copper"}
+    {"id":"1194141f-e49f-4fa4-aa20-3f0f771d4625","name":"GND","purpose":"copper"}
 
     ,
-    {"id":"14a73d30-15be-4f09-8826-dae0ca17e63b","name":"Front mask","purpose":"mask","side":"front"}
+    {"id":"173e5e1a-dfea-4217-a25c-08b53c6ece39","name":"5V","purpose":"copper"}
 
     ,
-    {"id":"3b531648-7b35-4d2b-9707-b130b0d53a86","name":"Back fabrication","purpose":"fabrication","side":"back"}
+    {"id":"3c3febf5-4465-4588-85ba-390715e5c681","name":"Front fabrication","purpose":"fabrication","side":"front"}
 
     ,
-    {"id":"5d2a0548-9bc1-40f9-ac37-f1a3033552c7","name":"Back courtyard","purpose":"courtyard","side":"back"}
+    {"id":"3fddf7a5-95d3-4fb4-b69e-3a5c637ac77f","name":"Front silkscreen","purpose":"silkscreen","side":"front"}
 
     ,
-    {"id":"72462bee-3112-40a7-aee8-da5018bcd94f","name":"Front silkscreen","purpose":"silkscreen","side":"front"}
+    {"id":"56af9a00-f9e5-4b0d-aafd-785e4f2dff29","name":"Back paste","purpose":"paste","side":"back"}
 
     ,
-    {"id":"7a6dfa89-d5f2-44e1-bab5-f5592c7bf023","name":"GND","purpose":"copper"}
+    {"id":"6ec82b56-ef9c-4658-a31e-40d6ece8da20","name":"Back mask","purpose":"mask","side":"back"}
 
     ,
-    {"id":"7e197cc5-ab78-48a5-92b9-7c8e998ac5f3","name":"Bottom","purpose":"copper","side":"back"}
+    {"id":"7c38e9fe-5630-44c6-a0de-0ceaf2709fd9","name":"Back fabrication","purpose":"fabrication","side":"back"}
 
     ,
-    {"id":"838a7f3e-1aef-4f82-9a56-dc4c65159e68","name":"Top","purpose":"copper","side":"front"}
+    {"id":"8f72b52c-3f04-4a67-ab44-a402345d4db0","name":"Front courtyard","purpose":"courtyard","side":"front"}
 
     ,
-    {"id":"8f2d7a30-600c-446f-867b-7ab5f5bd17f1","name":"Front fabrication","purpose":"fabrication","side":"front"}
+    {"id":"8fc57466-f0d3-48f8-a814-1eaf6d14f486","name":"Back silkscreen","purpose":"silkscreen","side":"back"}
 
     ,
-    {"id":"91cabdca-fa43-40d2-850c-6904d998fb4b","name":"Back silkscreen","purpose":"silkscreen","side":"back"}
+    {"id":"a5904576-5152-4ce2-9523-e8da16d133dc","name":"Bottom","purpose":"copper","side":"back"}
 
     ,
-    {"id":"a4494c79-6ab8-4960-aa6e-0091ca87bbbb","name":"Front paste","purpose":"paste","side":"front"}
+    {"id":"cd53e9b7-b1db-400f-8602-aa3afd686ac0","name":"Top","purpose":"copper","side":"front"}
 
     ,
-    {"id":"e1172dd1-c56e-4df3-9808-a9c3c3836e76","name":"Back paste","purpose":"paste","side":"back"}
+    {"id":"e85779c8-97e7-478a-8376-1721fe4b80c1","name":"Back courtyard","purpose":"courtyard","side":"back"}
 
     ,
-    {"id":"ec0f4d99-cfb1-4dda-8fc0-f55133cd9e24","name":"Back mask","purpose":"mask","side":"back"}
+    {"id":"ec2d9f11-1816-4af5-bae5-d1b52166a610","name":"Front paste","purpose":"paste","side":"front"}
 
     ,
-    {"id":"fad922af-ab57-43d3-b2aa-e83cc78d06a3","name":"Board Edge","purpose":"outline"}
+    {"id":"f44cc88b-1451-4633-9eaf-7b8bb436ae7c","name":"Front mask","purpose":"mask","side":"front"}
 
     ,
-    {"id":"fead0ed9-ab3c-409c-b18a-7b71dfdc9ff3","name":"Front courtyard","purpose":"courtyard","side":"front"}
+    {"id":"fcf848cc-7a30-40e5-96c8-68c3d44625b9","name":"Board Edge","purpose":"outline"}
     ],
     "stackup": {
-      "id": "c4e5c1e4-91ba-4c42-bd13-635e7d536b96",
+      "id": "127482fc-add8-4a3c-8ca9-0e4bac3c09a3",
       "strata": [
-    {"kind":"copper","layer":"838a7f3e-1aef-4f82-9a56-dc4c65159e68"}
+    {"kind":"copper","layer":"cd53e9b7-b1db-400f-8602-aa3afd686ac0"}
 
     ,
-    {"kind":"dielectric","id":"204b2e06-65fa-4149-81bb-59944e0e1fe4"}
+    {"kind":"dielectric","id":"e6132510-539d-407d-98a4-22eb64b2cbd0"}
 
     ,
-    {"kind":"copper","layer":"7a6dfa89-d5f2-44e1-bab5-f5592c7bf023"}
+    {"kind":"copper","layer":"1194141f-e49f-4fa4-aa20-3f0f771d4625"}
 
     ,
-    {"kind":"dielectric","id":"e594e40a-942e-46fc-b7ed-20e55cda9f4d"}
+    {"kind":"dielectric","id":"3710aa19-5eae-4ca2-b4ca-a19122d36b92"}
 
     ,
-    {"kind":"copper","layer":"03cc71d1-08d3-4eec-be9c-4992ef7b1209"}
+    {"kind":"copper","layer":"173e5e1a-dfea-4217-a25c-08b53c6ece39"}
 
     ,
-    {"kind":"dielectric","id":"bf83c237-7b5d-447c-833e-7dac4185224f"}
+    {"kind":"dielectric","id":"2162c062-0680-4af4-9996-2db12526501b"}
 
     ,
-    {"kind":"copper","layer":"7e197cc5-ab78-48a5-92b9-7c8e998ac5f3"}
+    {"kind":"copper","layer":"a5904576-5152-4ce2-9523-e8da16d133dc"}
       ]
     }
   },
@@ -75,7 +75,7 @@
     "layers": [
     ],
     "items": [
-    {"id":"9eb5f03b-ed83-4a6c-b251-8c06a38a1865","layer":"fad922af-ab57-43d3-b2aa-e83cc78d06a3","points":[{"x_nm":-70000000,"y_nm":-45000000},{"x_nm":70000000,"y_nm":-45000000},{"x_nm":70000000,"y_nm":45000000},{"x_nm":-70000000,"y_nm":45000000}],"closed":true}
+    {"id":"95f8eb92-65de-4de2-9819-7b13ba1e2330","layer":"fcf848cc-7a30-40e5-96c8-68c3d44625b9","points":[{"x_nm":-70000000,"y_nm":-45000000},{"x_nm":70000000,"y_nm":-45000000},{"x_nm":70000000,"y_nm":45000000},{"x_nm":-70000000,"y_nm":45000000}],"closed":true}
     ]
   },
   "assignments": [
