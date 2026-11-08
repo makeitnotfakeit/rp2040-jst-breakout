@@ -1,0 +1,263 @@
+{
+  "format": "pcbcraft-symbol/1",
+  "id": "jst-gh-7",
+  "revision": 1,
+  "name": "JST-GH 7-Pin Header",
+  "reference_prefix": "J",
+  "default_value": "JST-GH-7",
+  "terminals": [
+    {
+      "id": "1",
+      "name": "VCC",
+      "electrical_type": "power_in"
+    },
+    {
+      "id": "2",
+      "name": "P2",
+      "electrical_type": "passive"
+    },
+    {
+      "id": "3",
+      "name": "P3",
+      "electrical_type": "passive"
+    },
+    {
+      "id": "4",
+      "name": "P4",
+      "electrical_type": "passive"
+    },
+    {
+      "id": "5",
+      "name": "P5",
+      "electrical_type": "passive"
+    },
+    {
+      "id": "6",
+      "name": "P6",
+      "electrical_type": "passive"
+    },
+    {
+      "id": "7",
+      "name": "GND",
+      "electrical_type": "power_in"
+    }
+  ],
+  "units": [
+    {
+      "id": "main",
+      "drawing": [
+        {
+          "type": "rect",
+          "min_nm": [
+            -2540000,
+            -5080000
+          ],
+          "max_nm": [
+            2540000,
+            5080000
+          ]
+        },
+        {
+          "type": "text",
+          "at_nm": [
+            0,
+            -3810000
+          ],
+          "text": "JST-7",
+          "align": "middle"
+        },
+        {
+          "type": "line",
+          "from_nm": [
+            -5080000,
+            -3810000
+          ],
+          "to_nm": [
+            -2540000,
+            -3810000
+          ]
+        },
+        {
+          "type": "text",
+          "at_nm": [
+            -1270000,
+            -3810000
+          ],
+          "text": "VCC",
+          "align": "start"
+        },
+        {
+          "type": "line",
+          "from_nm": [
+            -5080000,
+            -2540000
+          ],
+          "to_nm": [
+            -2540000,
+            -2540000
+          ]
+        },
+        {
+          "type": "text",
+          "at_nm": [
+            -1270000,
+            -2540000
+          ],
+          "text": "P2",
+          "align": "start"
+        },
+        {
+          "type": "line",
+          "from_nm": [
+            -5080000,
+            -1270000
+          ],
+          "to_nm": [
+            -2540000,
+            -1270000
+          ]
+        },
+        {
+          "type": "text",
+          "at_nm": [
+            -1270000,
+            -1270000
+          ],
+          "text": "P3",
+          "align": "start"
+        },
+        {
+          "type": "line",
+          "from_nm": [
+            -5080000,
+            0
+          ],
+          "to_nm": [
+            -2540000,
+            0
+          ]
+        },
+        {
+          "type": "text",
+          "at_nm": [
+            -1270000,
+            0
+          ],
+          "text": "P4",
+          "align": "start"
+        },
+        {
+          "type": "line",
+          "from_nm": [
+            -5080000,
+            1270000
+          ],
+          "to_nm": [
+            -2540000,
+            1270000
+          ]
+        },
+        {
+          "type": "text",
+          "at_nm": [
+            -1270000,
+            1270000
+          ],
+          "text": "P5",
+          "align": "start"
+        },
+        {
+          "type": "line",
+          "from_nm": [
+            -5080000,
+            2540000
+          ],
+          "to_nm": [
+            -2540000,
+            2540000
+          ]
+        },
+        {
+          "type": "text",
+          "at_nm": [
+            -1270000,
+            2540000
+          ],
+          "text": "P6",
+          "align": "start"
+        },
+        {
+          "type": "line",
+          "from_nm": [
+            -5080000,
+            3810000
+          ],
+          "to_nm": [
+            -2540000,
+            3810000
+          ]
+        },
+        {
+          "type": "text",
+          "at_nm": [
+            -1270000,
+            3810000
+          ],
+          "text": "GND",
+          "align": "start"
+        }
+      ],
+      "pins": [
+        {
+          "terminal": "1",
+          "at_nm": [
+            -5080000,
+            -3810000
+          ]
+        },
+        {
+          "terminal": "2",
+          "at_nm": [
+            -5080000,
+            -2540000
+          ]
+        },
+        {
+          "terminal": "3",
+          "at_nm": [
+            -5080000,
+            -1270000
+          ]
+        },
+        {
+          "terminal": "4",
+          "at_nm": [
+            -5080000,
+            0
+          ]
+        },
+        {
+          "terminal": "5",
+          "at_nm": [
+            -5080000,
+            1270000
+          ]
+        },
+        {
+          "terminal": "6",
+          "at_nm": [
+            -5080000,
+            2540000
+          ]
+        },
+        {
+          "terminal": "7",
+          "at_nm": [
+            -5080000,
+            3810000
+          ]
+        }
+      ]
+    }
+  ]
+}

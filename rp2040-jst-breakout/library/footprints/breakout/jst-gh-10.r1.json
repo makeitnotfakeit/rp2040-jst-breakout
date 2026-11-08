@@ -3,143 +3,133 @@
   "library": "breakout",
   "id": "jst-gh-10",
   "revision": 1,
-  "name": "JST-GH 10-Pin Header",
+  "name": "JST-GH 10-Pin SMT Header (BM10B-GHS-TBT)",
   "license": "MIT OR Apache-2.0",
   "source": {
     "kind": "original",
-    "reference": "JST GH 1.25 mm 10-pin",
-    "locator": "1.25 mm pitch; 10 pins"
+    "reference": "JST GH Series 105 specification (BM10B-GHS-TBT / GHR-10)",
+    "locator": "1.25 mm pitch SMT; 10 circuits; 0.6 mm x 1.7 mm lands"
   },
   "pads": [
     {
       "number": "1",
       "center": {
         "x_nm": -5625000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
       "shape": "rectangle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "copper": "component_side"
     },
     {
       "number": "2",
       "center": {
         "x_nm": -4375000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     },
     {
       "number": "3",
       "center": {
         "x_nm": -3125000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     },
     {
       "number": "4",
       "center": {
         "x_nm": -1875000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     },
     {
       "number": "5",
       "center": {
         "x_nm": -625000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     },
     {
       "number": "6",
       "center": {
         "x_nm": 625000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     },
     {
       "number": "7",
       "center": {
         "x_nm": 1875000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     },
     {
       "number": "8",
       "center": {
         "x_nm": 3125000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     },
     {
       "number": "9",
       "center": {
         "x_nm": 4375000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     },
     {
       "number": "10",
       "center": {
         "x_nm": 5625000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     }
   ],
   "graphics": [
@@ -149,47 +139,51 @@
         "x_nm": 0,
         "y_nm": 0
       },
-      "width_nm": 14250000,
-      "height_nm": 5000000,
+      "width_nm": 15750000,
+      "height_nm": 4250000,
       "rotation": 0
     },
     {
       "purpose": "courtyard",
       "center": {
         "x_nm": 0,
-        "y_nm": 0
+        "y_nm": 500000
       },
-      "width_nm": 15250000,
+      "width_nm": 16750000,
       "height_nm": 6000000,
       "rotation": 0
     }
   ],
+  "reference": "pcbcraft-technical-1",
   "silkscreen": [
     {
       "points": [
         {
-          "x_nm": -7125000,
-          "y_nm": -2500000
+          "x_nm": -7875000,
+          "y_nm": -2125000
         },
         {
-          "x_nm": 7125000,
-          "y_nm": -2500000
+          "x_nm": 7875000,
+          "y_nm": -2125000
         },
         {
-          "x_nm": 7125000,
-          "y_nm": 2500000
+          "x_nm": 7875000,
+          "y_nm": 2125000
         },
         {
-          "x_nm": -7125000,
-          "y_nm": 2500000
+          "x_nm": -6875000,
+          "y_nm": 2125000
         },
         {
-          "x_nm": -7125000,
-          "y_nm": -2500000
+          "x_nm": -7875000,
+          "y_nm": 1125000
+        },
+        {
+          "x_nm": -7875000,
+          "y_nm": -2125000
         }
       ],
       "closed": true
     }
-  ],
-  "reference": "pcbcraft-technical-1"
+  ]
 }

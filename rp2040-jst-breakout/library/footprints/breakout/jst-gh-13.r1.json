@@ -3,182 +3,169 @@
   "library": "breakout",
   "id": "jst-gh-13",
   "revision": 1,
-  "name": "JST-GH 13-Pin Header",
+  "name": "JST-GH 13-Pin SMT Header (BM13B-GHS-TBT)",
   "license": "MIT OR Apache-2.0",
   "source": {
     "kind": "original",
-    "reference": "JST GH 1.25 mm 13-pin",
-    "locator": "1.25 mm pitch; 13 pins"
+    "reference": "JST GH Series 105 specification (BM13B-GHS-TBT / GHR-13)",
+    "locator": "1.25 mm pitch SMT; 13 circuits; 0.6 mm x 1.7 mm lands"
   },
   "pads": [
     {
       "number": "1",
       "center": {
         "x_nm": -7500000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
       "shape": "rectangle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "copper": "component_side"
     },
     {
       "number": "2",
       "center": {
         "x_nm": -6250000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     },
     {
       "number": "3",
       "center": {
         "x_nm": -5000000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     },
     {
       "number": "4",
       "center": {
         "x_nm": -3750000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     },
     {
       "number": "5",
       "center": {
         "x_nm": -2500000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     },
     {
       "number": "6",
       "center": {
         "x_nm": -1250000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     },
     {
       "number": "7",
       "center": {
         "x_nm": 0,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     },
     {
       "number": "8",
       "center": {
         "x_nm": 1250000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     },
     {
       "number": "9",
       "center": {
         "x_nm": 2500000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     },
     {
       "number": "10",
       "center": {
         "x_nm": 3750000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     },
     {
       "number": "11",
       "center": {
         "x_nm": 5000000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     },
     {
       "number": "12",
       "center": {
         "x_nm": 6250000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     },
     {
       "number": "13",
       "center": {
         "x_nm": 7500000,
-        "y_nm": 0
+        "y_nm": 1700000
       },
-      "width_nm": 1300000,
-      "height_nm": 1300000,
+      "width_nm": 600000,
+      "height_nm": 1700000,
       "rotation": 0,
-      "shape": "circle",
-      "copper": "all_copper",
-      "drill_nm": 800000
+      "shape": "rectangle",
+      "copper": "component_side"
     }
   ],
   "graphics": [
@@ -188,47 +175,51 @@
         "x_nm": 0,
         "y_nm": 0
       },
-      "width_nm": 18000000,
-      "height_nm": 5000000,
+      "width_nm": 19500000,
+      "height_nm": 4250000,
       "rotation": 0
     },
     {
       "purpose": "courtyard",
       "center": {
         "x_nm": 0,
-        "y_nm": 0
+        "y_nm": 500000
       },
-      "width_nm": 19000000,
+      "width_nm": 20500000,
       "height_nm": 6000000,
       "rotation": 0
     }
   ],
+  "reference": "pcbcraft-technical-1",
   "silkscreen": [
     {
       "points": [
         {
-          "x_nm": -9000000,
-          "y_nm": -2500000
+          "x_nm": -9750000,
+          "y_nm": -2125000
         },
         {
-          "x_nm": 9000000,
-          "y_nm": -2500000
+          "x_nm": 9750000,
+          "y_nm": -2125000
         },
         {
-          "x_nm": 9000000,
-          "y_nm": 2500000
+          "x_nm": 9750000,
+          "y_nm": 2125000
         },
         {
-          "x_nm": -9000000,
-          "y_nm": 2500000
+          "x_nm": -8750000,
+          "y_nm": 2125000
         },
         {
-          "x_nm": -9000000,
-          "y_nm": -2500000
+          "x_nm": -9750000,
+          "y_nm": 1125000
+        },
+        {
+          "x_nm": -9750000,
+          "y_nm": -2125000
         }
       ],
       "closed": true
     }
-  ],
-  "reference": "pcbcraft-technical-1"
+  ]
 }
