@@ -106,7 +106,6 @@
       "rotation": 0
     }
   ],
-  "reference": "pcbcraft-technical-1",
   "silkscreen": [
     {
       "points": [
@@ -137,5 +136,6 @@
       ],
       "closed": true
     }
-  ]
+  ],
+  "reference": "pcbcraft-technical-1"
 }

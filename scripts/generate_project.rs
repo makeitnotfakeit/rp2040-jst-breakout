@@ -389,9 +389,12 @@ fn main() -> Result<(), Box<dyn Error>> {
     let archive = encode_packed(project)?;
 
     let proj_dir = destination.join("rp2040-jst-breakout");
+    if proj_dir.exists() {
+        fs::remove_dir_all(&proj_dir)?;
+    }
     fs::create_dir_all(&proj_dir)?;
 
-    for (relative, bytes) in documents {
+    for (relative, bytes) in &documents {
         let path = proj_dir.join(relative);
         if let Some(parent) = path.parent() {
             fs::create_dir_all(parent)?;
