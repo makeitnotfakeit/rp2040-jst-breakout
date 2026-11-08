@@ -1,0 +1,13 @@
+# PCBCraft session locks
+.*.pcbcraft-lock
+
+# OS / Editor metadata
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*~
+
+# Build and temporary files
+target/
+*.tmp
